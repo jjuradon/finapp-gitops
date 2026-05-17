@@ -1,0 +1,2 @@
+envs/homelab/.env.*
+!envs/homelab/.env.*.example
