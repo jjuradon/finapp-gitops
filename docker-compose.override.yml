@@ -1,0 +1,6 @@
+services:
+  nginx:
+    # In development, Nginx proxies to the host machine where uvicorn runs.
+    # Replace host.docker.internal with your machine's LAN IP if on Linux.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
